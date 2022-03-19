@@ -284,9 +284,9 @@ hr {
 .close-signup {
   position: absolute;
   padding: 10px;
-  right: 105px;
-  top: 95px;
-  font-size: 40px;
+  right: 150px;
+  top: 120px;
+  font-size: 50px;
   font-weight: bold;
   color: #7f89f5;
 }
@@ -324,6 +324,12 @@ hr {
   }
   .Remake{
     bottom: 0;
+  }
+}
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+  .close-signup{
+    right: 90px;
+    top: 90px;
   }
 }
 
